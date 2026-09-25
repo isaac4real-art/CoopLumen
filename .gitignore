@@ -8,14 +8,14 @@ dist/
 .next/
 out/
 build/
+target/
+**/test_snapshots/
 *.tsbuildinfo
 
 # Next.js generated files
 next-env.d.ts
 
 # Environment
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -31,7 +31,6 @@ coverage/
 .nyc_output/
 
 # Editor and assistant tooling
-.vscode/
 .idea/
 .kiro/
 .claude/
@@ -50,3 +49,7 @@ pg_data/
 
 # Local development roadmap (not for GitHub)
 issue.md
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
